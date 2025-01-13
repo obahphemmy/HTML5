@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "IBM PLEX SANS";
+}
+
+.navbar, .jumbotron{
+    background-color: #f4511e !important;
+    color: white !important;
+}
+
+.navbar a{
+    color: white !important;
+}
+
+.jumbotron .container{
+    width: 500px;
+    padding-top: 80px !important;
+    padding-bottom: 60px !important;
+}
+
+.jumbotron .container h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.jumbotron .container p{
+    font-size: 20px !important;
+    font-weight: 200;
+}
+
+.jumbotron .container input{
+    border: none;
+}
+
+.jumbotron .container input:focus{
+    border: none;
+    box-shadow: none;
+}
+
+.jumbotron .container button{
+    background-color: #703333;
+    color: white;
+    border: none;
+    font-size: 13px !important;
+}
+
+.jumbotron .container button:hover{
+    background-color: #631414;
+    color: white;
+}

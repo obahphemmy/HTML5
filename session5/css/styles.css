@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    margin-top: 0;
+    background-color: rgb(211, 216, 220);
+}
+
+.container{
+    width: 700px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 3% 2%;
+}
+
+.container form{
+    width: 60%;
+}
+
+.container .contact-header{
+    background-color: rgb(224, 245, 224);
+    height: 40px;
+    padding: 13px 5px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.container form div.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container form div label, input{
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container form label{
+    margin-bottom: 4px;
+}
+
+.container form div.row div{
+    width: 80%;
+    margin-right: 6px;
+}
+
+.container form input, select{
+    height: 40px;
+    border-radius: 5px;
+    padding: 7px 8px;
+    border: none;
+    outline: none;
+    margin-bottom: 7px;
+    background-color: rgb(233, 234, 233);
+}
+
+.container form select{
+    display: block;
+    width: 100%;
+}
+
+.container form input[type='submit']{
+    background-color: rgb(99, 201, 113);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+

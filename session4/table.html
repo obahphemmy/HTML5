@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Tables</title>
+    <style>
+        .stringArray{
+            display: inline-block;
+            padding: 8px;
+            background-color: rgb(196, 197, 197);
+            border-radius: 40px;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <h1>Creating Tables</h1>
+    <h2>Countries and their Capital</h2>
+    <p><span class="stringArray">EDO</span> <span class="stringArray">Lagos</span></p>
+    <table border="1">
+        <tr>
+            <th>Country</th>
+            <th>Capital</th>
+        </tr>
+        <tr>
+            <td>Nigeria</td>
+            <td>Abuja</td>
+        </tr>
+        <tr>
+            <td>United Kingdom</td>
+            <td>London</td>
+        </tr>
+        <tr>
+            <td>United States of America</td>
+            <td>Washington DC</td>
+        </tr>
+    </table>
+
+    <h2>List of Students</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Place</th>
+        </tr>
+        <tr>
+            <td>James Wallace</td>
+            <td>35</td>
+            <td>London</td>
+        </tr>
+        <tr>
+            <td>Joan Rutherford</td>
+            <td>45</td>
+            <td>Abuja</td>
+        </tr>
+    </table>
+
+    <h2>Working HTML5 Colspan</h2>
+    <table border="1">
+        <tr>
+            <td colspan="3">We used colspan here</td>
+        </tr>
+        <tr>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+        <tr>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+        <tr>
+            <td colspan="3">We used colspan here again</td>
+        </tr>
+    </table>
+
+    <h2>Working HTML5 Rowspan</h2>
+    <table border="1">
+        <tr>
+            <th>Manufacturer</th>
+            <th>Model</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <th rowspan="3">Audi</th>
+            <td>A4</td>
+            <td>35m</td>
+        </tr>
+        <tr>
+            <td>A5</td>
+            <td>35m</td>
+        </tr>
+        <tr>
+            <td>A6</td>
+            <td>35m</td>
+        </tr>
+        <tr>
+            <th rowspan="2">BMW</th>
+            <td>382i</td>
+            <td>35m</td>
+        </tr>
+        <tr>
+            <td>984i</td>
+            <td>45m</td>
+        </tr>
+    </table>
+</body>
+</html>

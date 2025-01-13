@@ -1,0 +1,17 @@
+.home_bg{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../imgs/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-fluid.home{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container.about{
+    margin-top: 80px;
+}

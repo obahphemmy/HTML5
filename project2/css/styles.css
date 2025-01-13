@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "IBM PLEX SANS";
+}
+
+.navbar{    
+    padding-top: 0 !important;
+}
+
+.navbar, .jumbotron{
+    background-color: #f4511e !important;
+    color: white !important;
+}
+
+.navbar a{
+    color: white !important;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.navbar .nav-link{
+    font-size: 14px;
+}
+
+.navbar .nav-link:hover{
+    background-color: #fff !important;
+    color: #f4511e !important;
+}
+
+.jumbotron .container{
+    width: 500px;
+    padding-top: 80px !important;
+    padding-bottom: 60px !important;
+}
+
+.jumbotron .container h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.jumbotron .container p{
+    font-size: 20px !important;
+    font-weight: 200;
+}
+
+.jumbotron .container input{
+    border: none;
+}
+
+.jumbotron .container input:focus{
+    border: none;
+    box-shadow: none;
+}
+
+.jumbotron .container button{
+    background-color: #703333;
+    color: white;
+    border: none;
+    font-size: 13px !important;
+}
+
+.jumbotron .container button:hover{
+    background-color: #631414;
+    color: white;
+}
+
+.container.title h1{
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.container .fa.fa-signal, .fa.fa-globe{
+    font-size: 150px;
+    color: #f4511e;
+    padding-left: 20px;
+}
+
+.container.title button{
+    background-color: transparent !important;
+    color: black;
+    border: none;
+    font-size: 13px !important;
+    border: 1px solid #131212;
+}
+
+.container.title button:hover{
+    background-color: #cbc9c9 !important;
+    color: rgb(15, 12, 12);
+}
+
+.container-fluid{
+    background-color: #ededed;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.container-fluid.mission h1{
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.container.services h1{
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.container.services h3{
+    font-size: 17px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.container.services .fa{
+    font-size: 40px;
+    color: #f4511e;
+    padding-left: 20px;
+}
+
+.container.services h4{
+    font-size: 19px;
+}
+
+.container.services p{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.container.portfolio h1{
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.container.portfolio h4{
+    font-size: 15px;
+}
